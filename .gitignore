@@ -1,0 +1,24 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Streamlit profiles & cache
+profiles/
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/app-state/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+*.zip
+*_mapped.csv
+*_mapped.xlsx
+outputs/
